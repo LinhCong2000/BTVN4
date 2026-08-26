@@ -1,0 +1,74 @@
+[
+    {
+        "latitude": 16.063269,
+        "longitude": 108.23864,
+        "generationtime_ms": 0.07796287536621094,
+        "utc_offset_seconds": 25200,
+        "timezone": "Asia/Bangkok",
+        "timezone_abbreviation": "GMT+7",
+        "elevation": 9.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "wind_speed_10m": "km/h"
+        },
+        "current": {
+            "time": "2026-08-26T14:15",
+            "interval": 900,
+            "temperature_2m": 33.5,
+            "relative_humidity_2m": 57,
+            "wind_speed_10m": 17.0
+        },
+        "city_name": "Da Nang"
+    },
+    {
+        "latitude": 21.05448,
+        "longitude": 105.807106,
+        "generationtime_ms": 0.059723854064941406,
+        "utc_offset_seconds": 25200,
+        "timezone": "Asia/Bangkok",
+        "timezone_abbreviation": "GMT+7",
+        "elevation": 10.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "wind_speed_10m": "km/h"
+        },
+        "current": {
+            "time": "2026-08-26T14:15",
+            "interval": 900,
+            "temperature_2m": 28.1,
+            "relative_humidity_2m": 92,
+            "wind_speed_10m": 4.8
+        },
+        "city_name": "Hanoi"
+    },
+    {
+        "latitude": 16.48506,
+        "longitude": 107.571434,
+        "generationtime_ms": 0.5261898040771484,
+        "utc_offset_seconds": 25200,
+        "timezone": "Asia/Bangkok",
+        "timezone_abbreviation": "GMT+7",
+        "elevation": 8.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "relative_humidity_2m": "%",
+            "wind_speed_10m": "km/h"
+        },
+        "current": {
+            "time": "2026-08-26T14:15",
+            "interval": 900,
+            "temperature_2m": 37.7,
+            "relative_humidity_2m": 39,
+            "wind_speed_10m": 7.3
+        },
+        "city_name": "Huế"
+    }
+]
