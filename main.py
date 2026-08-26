@@ -1,7 +1,7 @@
-"""CLI: lấy kết quả xổ số Miền Bắc từ API, lưu JSON + CSV.
+"""CLI: lấy thông tin thời tiết của các thành phố ĐÀ nẵng, Hà nôi, Huế từ API, lưu JSON + CSV.
 
 Ví dụ:
-    python main.py --pages 3 --limit 100
+    python main.py --cities "Da nang, Hanoi, Hue"
 """
 
 import argparse
