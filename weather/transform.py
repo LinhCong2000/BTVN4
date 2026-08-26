@@ -1,4 +1,4 @@
-"""Lọc dữ liệu theo khu vực và dựng DataFrame kết quả xổ số."""
+"""Lọc các trường thông tin cần lấy và dựng DataFrame."""
 
 import logging
 
@@ -8,11 +8,13 @@ from datetime import datetime
 logger = logging.getLogger(__name__)
 
 def format_time(time_str: str) -> str:
+    """Lưu theo múi giờ Việt Nam, đưa về định dạng Y-m-d H:M:S"""
     dt = datetime.fromisoformat(time_str)
 
     return dt.strftime("%Y-%m-%d %H:%M:%S")
 
 def extract_weather_data(draws: list[dict]) -> list[dict]:
+    """Lọc các trường thông tin cần lấy và dựng DataFrame."""
     rows = []
     for draw in draws:
         current = draw.get("current")
@@ -30,7 +32,7 @@ def extract_weather_data(draws: list[dict]) -> list[dict]:
 
 
 def to_dataframe(weather_data: list[dict]) -> pd.DataFrame:
-    """Dựng DataFrame với cột ngày và 3 giải đầu (Đặc Biệt, Nhất, Nhì)."""
+    """Dựng DataFrame"""
     return pd.DataFrame(weather_data)
 
 

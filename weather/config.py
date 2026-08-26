@@ -1,4 +1,4 @@
-"""Cấu hình chung: API endpointvà  logging."""
+"""Cấu hình chung: API endpoint và logging."""
 
 import logging
 
