@@ -22,7 +22,7 @@ Tham số:
 |---|---|---|
 | `--cities` | `Da nang` | Thành phố cần lấy thông tin thời tiết |
 | `--output-json` | `full_draws.json` | File JSON lưu dữ liệu thô |
-| `--output-csv` | `xsmb_results.csv` | File CSV kết quả Miền Bắc |
+| `--output-csv` | `weather_results.csv` | File CSV kết quả thời tiết |
 | `--log-level` | `INFO` | Mức log: DEBUG/INFO/WARNING/ERROR |
 
 ## Cấu trúc project
